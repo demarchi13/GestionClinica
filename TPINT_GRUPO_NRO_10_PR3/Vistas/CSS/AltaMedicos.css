@@ -1,0 +1,56 @@
+﻿.centrarDiv {
+    font-size: 14px;
+    color: black;
+    margin-top: 125px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Alinea el texto dentro de los elementos */
+}
+
+.contenedor-formulario {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Ancho del contenedor */
+    text-align: right;
+}
+    .contenedor-formulario > * {
+        margin-bottom: 13px;
+    }
+
+.btnAgregarMedico {
+    background-color: mediumseagreen;
+    color: white; /* Cambia el color del texto a blanco */
+    padding: 8px 16px; /* Agrega relleno al botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 4px; /* Agrega esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.4s; /* Agrega una transición suave */
+    font-size: 14px;
+}
+    .btnAgregarMedico:hover {
+        background-color: lightgreen;
+    }
+
+.checkbox-container {
+    text-align: left; /* Alinea los checkboxes a la derecha */
+    display: flex;
+    flex-wrap: wrap; /* Permite el contenido en filas y columnas */
+    justify-content: left; /* Distribuye los items equitativamente */
+    padding: 10px; /* Añade un poco de espacio alrededor */
+    background-color: #e6f7ff; /* Añade un color de fondo suave */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    border: 1px solid #ccc; /* Añade un borde */
+    width: 125px; /* Ancho del contenedor de checkboxes */
+    margin-left: 235px; /* Ajusta según sea necesario */
+}
+
+
+
+
+  

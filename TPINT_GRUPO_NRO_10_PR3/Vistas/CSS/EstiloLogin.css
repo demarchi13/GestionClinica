@@ -1,0 +1,77 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #C0DDEB; /* Fondo del body en un tono más claro de LightSkyBlue */
+    color: white; /* Color del texto a blanco */
+    font-family: Arial, sans-serif;
+}
+header {
+    width: 100%;
+    background-color: #55E7E0;
+    padding: 20px 0;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-right: 50px; /* Añade padding a la derecha */
+    box-sizing: border-box;
+}
+
+.h1ClinicaSalud {
+    height: 43px;
+    margin-left: 30px;
+}
+
+.lbllNombreUsuarioPosicion {
+    position: absolute; /* Permite el posicionamiento absoluto del elemento */
+    left: 1000px; /* Mueve el label 1000px hacia la derecha */
+    top: 30px; /* Alinea el label con la parte superior del contenedor */
+}
+
+.login-container {
+    background-color: #55E7E0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 150px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.botonInicio {
+    width: 100%;
+    padding: 10px;
+    background-color: #5E4EE7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.4s; /* Agrega una transición suave */
+}
+
+.botonInicio:hover {
+    background-color: mediumpurple;
+}
+
+    

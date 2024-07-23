@@ -1,0 +1,96 @@
+﻿.mensaje {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    text-align: center; /* Alinea el texto al centro */
+    margin-bottom: 20px; /* Espacio inferior */
+    font-size: 36px; /* Tamaño de la fuente */
+    color: #333; /* Color del texto */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se distribuyan en múltiples líneas si es necesario */
+    justify-content: space-around; /* Distribuye los elementos equitativamente en el contenedor */
+    align-items: center; /* Centra verticalmente los elementos */
+    margin-top: 200px; /* Espacio superior */
+}
+
+.box {
+    width: 200px;
+    height: 150px;
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.btnMedicos {
+    width: 80%;
+    padding: 10px;
+    background-color: #E3A867;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0px;
+    cursor: pointer;
+    font-weight: 700; /* Hace el texto más grueso */
+    transition: background-color 0.4s; /* Agrega una transición suave */
+}
+    .btnMedicos:hover {
+        background-color: saddlebrown;
+    }
+
+.btnPacientes {
+    width: 80%;
+    padding: 10px;
+    background-color: #FF5A77;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0px;
+    cursor: pointer;
+    font-weight: 700; /* Hace el texto más grueso */
+    transition: background-color 0.4s; /* Agrega una transición suave */
+}
+
+    .btnPacientes:hover {
+        background-color: red;
+    }
+
+.btnTurnos {
+    width: 80%;
+    padding: 10px;
+    background-color: #66D3C5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0px;
+    cursor: pointer;
+    font-weight: 700; /* Hace el texto más grueso */
+    transition: background-color 0.4s; /* Agrega una transición suave */
+}
+
+    .btnTurnos:hover {
+        background-color: cadetblue;
+    }
+
+.btnInformes {
+    width: 80%;
+    padding: 10px;
+    background-color: #B0E2FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0px;
+    cursor: pointer;
+    font-weight: 700; /* Hace el texto más grueso */
+    transition: background-color 0.4s; /* Agrega una transición suave */
+}
+
+    .btnInformes:hover {
+        background-color: dodgerblue;
+    }

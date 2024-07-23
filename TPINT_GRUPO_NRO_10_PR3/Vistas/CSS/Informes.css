@@ -1,0 +1,55 @@
+﻿.divPadre {
+    margin-top: 125px;
+}
+
+.divMensaje{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.divSelecciones {
+    margin-left: 30px;
+}
+
+.divSelecciones2 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.divGrilla {
+   margin-top: 15px;
+   margin-left: 30px;
+}
+
+.boton {
+    background-color: mediumseagreen;
+    color: white; /* Cambia el color del texto a blanco */
+    padding: 8px 16px; /* Agrega relleno al botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 4px; /* Agrega esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Agrega una transición suave */
+}
+
+    .boton:hover {
+        background-color: lightgreen;
+    }
+
+.txtMes {
+    background-color: Highlight;
+    color: white; /* Cambia el color del texto a blanco */
+    padding: 8px 16px; /* Agrega relleno al botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 4px; /* Agrega esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.4s; /* Agrega una transición suave */
+}
+
+    .txtMes:hover {
+        background-color: deepskyblue;
+    }
+
+#grdInformes {
+    width: 600px;
+}

@@ -1,0 +1,54 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #C0DDEB; /* Fondo del body en un tono más claro de LightSkyBlue */ 
+}
+
+header {
+    width: 100%;
+    background-color: #55E7E0;
+    padding: 20px 0;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-right: 50px; /* Añade padding a la derecha */
+    box-sizing: border-box;
+    color:white;
+}
+
+.h1ClinicaSalud {
+    height: 50px;
+    margin-left: 30px;
+}
+
+.lnkRegresar {
+    position: absolute; /* Permite el posicionamiento absoluto del elemento */
+    left: 30px; /* Mueve el label 1000px hacia la derecha */
+    top: 60px; /* Alinea el label con la parte superior del contenedor */
+}
+
+.lblNombreUsuarioPosicion {
+    position: absolute; /* Permite el posicionamiento absoluto del elemento */
+    left: 1000px; /* Mueve el label 1000px hacia la derecha */
+    top: 10px; /* Alinea el label con la parte superior del contenedor */
+}
+
+.btnSalir {
+    position: absolute; /* Permite el posicionamiento absoluto del elemento */
+    left: 1000px; /* Mueve el label 1000px hacia la derecha */
+    top: 50px; /* Alinea el label con la parte superior del contenedor */
+    background-color: crimson; /* Cambia el color de fondo del botón a crimson */
+    color: white; /* Cambia el color del texto a blanco */
+    padding: 6px 16px; /* Agrega relleno al botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 4px; /* Agrega esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.4s; /* Agrega una transición suave */
+    font-size: 13px;
+}
+
+    .btnSalir:hover {
+        background-color: #FF5A77; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+    }

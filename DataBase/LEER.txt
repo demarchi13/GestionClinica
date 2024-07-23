@@ -1,0 +1,10 @@
+*GestionClinica_DB contiene las tablas y sus relaciones creadas por medio de Transact SQL
+
+*Inserts: Contiene los Inserts de las tablas que necesitas estar pre-cargadas (Usuario administrados, especialidades,
+provincias, localidades, sexos, etc.)
+
+*Procedimientos: Contiene todos los procedimientos almacenados que se utilizadon a lo largo del proyecto.
+
+*Triggers: Contiene los triggers.
+
+* ScriptDB_GestionClinica: Contiene el script para crear la base de datos.
